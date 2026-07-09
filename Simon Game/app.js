@@ -41,23 +41,45 @@
 
     //2...........level up after flash  
     function levelUp() {
+        userSeq = []; //jaisai hi levelup function call hota hai userSeq reset and empty....
         level++;
         h2.innerText = `Level ${level}`; //level update in h2 inner text
 
         let randIdx = Math.floor(Math.random() * 3);
         let randColor = btns[randIdx];
         let randBtn = document.querySelector( `.${randColor}`);
-        console.log(randIdx);
-        console.log(randColor);
-        console.log(randBtn);
+        gameSeq.push(randColor);
+        console.log(gameSeq);//whenever game start add color in game sequence
         gameflash(randBtn);
        
+    }
+
+
+    function checkAns(idx){
+       
+       if(userSeq[idx] === gameSeq[idx]) {
+        if(userSeq.length == gameSeq.length) {
+         setTimeout(levelUp, 1000);
+        }
+       }else{
+        h2.innerHTML = `Game Over! Your score was <b> ${level} </b> <br> Press any key to start.`
+        document.querySelector("body").style.backgroundColor = "red";
+        setTimeout(function() {
+        document.querySelector("body").style.backgroundColor= "white";
+        }, 150)
+        reset();
+       }
     }
 
     function btnPress() {
         console.log(this);
         let btn = this;
         userFlash(btn);
+
+        userColor = btn.getAttribute("id");  //from get attribute function get value from id //this id makes only for get out color
+        userSeq.push(userColor);//color enter by user push in userSeq
+
+        checkAns(userSeq.length-1); //now checkAns function only print color
        
     }
 
@@ -66,4 +88,13 @@
         btn.addEventListener("click", btnPress);
     }
 
+    function reset(){
+     started = false;
+     gameSeq = [];
+     userSeq = [];
+     level = 0;
+    }
+
+
+    //git reset HEAD~1.......undo the last commit.......................................from github repo.....
  
