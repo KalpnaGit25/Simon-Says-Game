@@ -20,9 +20,9 @@ This project recreates that classic experience in the browser using modern web t
 - Progressive difficulty with each level
 - Interactive button flash animations
 - User input validation
-- Game Over detection
+- Game Over detection( red color background blinked )
 - Score (Level) display
-- Restart game functionality
+- Restart game functionality(start with press any key)
 
 ---
 
@@ -41,7 +41,7 @@ This project recreates that classic experience in the browser using modern web t
 3. Click the same colored button.
 4. Each new level adds another color to the sequence.
 5. Repeat the entire sequence correctly.
-6. If you click the wrong button, the game ends.
+6. If you click the wrong button, the game ends and a red color blinked to indicates termination of game.
 7. Press any key to start a new game.
 
 ---
