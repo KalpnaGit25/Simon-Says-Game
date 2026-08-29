@@ -1,99 +1,158 @@
-# 🎮 Simon Game
+# 🎮 Simon Says Game
 
-The **Simon Game** is a classic electronic memory game where players must remember and repeat an increasingly long sequence of colored lights. As each level progresses, a new color is added to the sequence, making the game more challenging. The objective is to correctly reproduce the complete sequence without making any mistakes.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Simon+Says+Game;Memory+Challenge+Built+with+JavaScript;HTML+%7C+CSS+%7C+JavaScript" alt="Typing SVG" />
+</p>
 
-This project is a web-based implementation of the classic Simon Game, developed using **HTML, CSS, and JavaScript** to practice core web development concepts and JavaScript programming.
-
----
-
-## 📖 About the Simon Game
-
-The original **Simon** electronic game was introduced in **1978** by **Milton Bradley** (now part of Hasbro). It was invented by **Ralph H. Baer** and **Howard J. Morrison** and became popular because it combined memory, concentration, and quick reflexes in a simple yet addictive gameplay.
-
-This project recreates that classic experience in the browser using modern web technologies.
-
----
-
-## 🚀 Features
-
-- Random color sequence generation
-- Progressive difficulty with each level
-- Interactive button flash animations
-- User input validation
-- Game Over detection( red color background blinked )
-- Score (Level) display
-- Restart game functionality(start with press any key)
+<p align="center">
+  <a href="https://github.com/KalpnaGit25/Simon-Says-Game/stargazers">
+    <img src="https://img.shields.io/github/stars/KalpnaGit25/Simon-Says-Game?style=for-the-badge&color=yellow" />
+  </a>
+  <a href="https://github.com/KalpnaGit25/Simon-Says-Game/network/members">
+    <img src="https://img.shields.io/github/forks/KalpnaGit25/Simon-Says-Game?style=for-the-badge&color=blue" />
+  </a>
+  <a href="https://github.com/KalpnaGit25/Simon-Says-Game/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/KalpnaGit25/Simon-Says-Game?style=for-the-badge&color=green" />
+  </a>
+</p>
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 About the Project
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+The **Simon Says Game** is a browser-based recreation of the classic electronic memory game introduced in **1978** by **Milton Bradley** (now Hasbro).
+
+Players must memorize and repeat an increasingly longer sequence of colored buttons. Each new level adds another color, making the challenge more exciting.
+
+This project was built using **HTML, CSS, and JavaScript** to strengthen core web development and JavaScript game logic skills.
+
+---
+
+## 📸 Preview
+
+> Add your gameplay GIF or screenshot here.
+
+<p align="center">
+  <img src="images/simon-game-demo.gif" alt="Simon Game Demo" width="600"/>
+</p>
+
+*(Replace the image path with your own screenshot or GIF.)*
+
+---
+
+## ✨ Features
+
+- 🎲 Random color sequence generation
+- 📈 Progressive difficulty
+- ⚡ Smooth button flash animations
+- 🎯 Real-time user input validation
+- ❤️ Game Over animation
+- 📊 Level-based scoring
+- 🔄 Restart with any key press
+- 💻 Simple and interactive UI
+
+---
+
+## 🛠 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,javascript" />
+</p>
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling & Animations |
+| JavaScript (ES6) | Game Logic |
 
 ---
 
 ## 🎮 How to Play
 
-1. Press any key to start the game.
-2. Watch the button that flashes.
+1. Press **any key** to start.
+2. Watch the highlighted button carefully.
 3. Click the same colored button.
-4. Each new level adds another color to the sequence.
-5. Repeat the entire sequence correctly.
-6. If you click the wrong button, the game ends and a red color blinked to indicates termination of game.
-7. Press any key to start a new game.
+4. Repeat the complete sequence.
+5. A new color is added every level.
+6. Clicking the wrong button ends the game.
+7. Press any key to play again.
 
 ---
 
 ## 📂 Project Structure
 
-```
-Simon-Game/
-│── index.html
-│── style.css
-│── app.js
-│── README.md
+```text
+Simon-Says-Game/
+├── index.html
+├── style.css
+├── app.js
+├── README.md
+└── images/
+    └── simon-game-demo.gif
 ```
 
 ---
 
-## 💡 What I Learned
+## 🧠 What I Learned
 
-Building this project helped me improve my understanding of:
+This project helped me practice:
 
 - DOM Manipulation
 - Event Handling
-- JavaScript Arrays
+- Arrays & Sequence Management
 - Random Number Generation
-- Game Logic
+- JavaScript Game Logic
 - CSS Animations
-- Timing Functions (`setTimeout`)
+- `setTimeout()` Timing Functions
 - State Management
 
 ---
 
-## 🔮 Future Improvements
+## 🚀 Future Improvements
 
-- Add unique sound effects for each color
-- High score tracking using Local Storage
-- Mobile-friendly responsive design
-- Dark mode
-- Difficulty levels
-- Start and Pause buttons
+- 🔊 Sound effects for each color
+- 🏆 High Score using Local Storage
+- 📱 Fully responsive design
+- 🌙 Dark Mode
+- 🎚 Difficulty levels
+- ⏸ Start/Pause controls
 
 ---
 
-## ⭐ Acknowledgements
+## 💡 Challenges Faced
 
-This project is inspired by the original **Simon** electronic memory game released in 1978. It was built as a learning project to strengthen JavaScript fundamentals and understand how interactive browser-based games are developed.
+While building this project, I learned how to:
+
+- Synchronize animations with user interactions.
+- Manage game state across multiple levels.
+- Prevent incorrect input during sequence playback.
+- Keep the gameplay responsive and smooth.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and feedback are always welcome.
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Open a Pull Request.
 
 ---
 
-If you found this project helpful, feel free to ⭐ the repository.
+## 🙏 Acknowledgements
+
+Inspired by the original **Simon** electronic memory game created by **Ralph H. Baer** and **Howard J. Morrison**.
+
+Built as a learning project to strengthen JavaScript fundamentals.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+
+<p align="center">
+  Made with ❤️ by <b>Kalpna</b>
+</p>
