@@ -30,8 +30,6 @@ This project was built using **HTML, CSS, and JavaScript** to strengthen core we
 
 ## 📸 Preview
 
-> Add your gameplay GIF or screenshot here.
-
 <p align="center">
 <img width="480" height="255" alt="simon-demo" src="https://github.com/user-attachments/assets/46705005-2448-4d68-b99c-14f7d4a2c0e3" />
 </p>
